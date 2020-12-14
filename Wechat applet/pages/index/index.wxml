@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view style='height:40px;'></view>
+<view class='container'>
+  <view class='box'>
+    <button bindtap="jj" type='primary'>室内监控</button>
+    <view style='height:40px;'></view>
+    <button bindtap="ss" type='primary'>室外监控</button>
+    <view style='height:40px;'></view>
+    <button bindtap="OneNet_Post" type='primary'>打开室内外监控</button>
+  </view>
+</view>
+<view class='v'>
+  <image src='../../img/111.png' class="animationSlow"></image>
+</view>
+
+

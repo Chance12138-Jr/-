@@ -1,0 +1,20 @@
+Page{
+  background-color: beige;
+}
+
+.h1 {
+  font-size: 1em;/*定义字体大小*/
+  text-align: center;/*定义文本居中对齐*/
+}
+
+.section{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.btn1 {
+  width: 40%;
+  margin-top: 100rpx;
+  background-color:green;
+  color:white;
+}

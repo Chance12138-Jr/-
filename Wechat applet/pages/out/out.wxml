@@ -1,0 +1,18 @@
+<!--pages/out/out.wxml-->
+<view class="h1">监控</view>
+
+<camera device-position="back" flash="off" binderror="error" style="width: 100%; height: 300px;"></camera>
+<button type="primary" bindtap="takePhoto">拍照</button>
+<view>保存</view>
+<image mode="widthFix" src="{{src}}"></image>
+<view class="section">
+  <view style='width:10px;'></view>
+<button bindtap="aa" class="btn1">认识</button>   
+<view style='width:20px;'></view>
+<button bindtap="freeTell" class="btn1">不认识</button>    
+<view style='width:10px;'></view>
+<button bindtap="OneNet_Post" class="btn1">开门</button> 
+</view>
+ 
+
+

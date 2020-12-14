@@ -1,0 +1,23 @@
+<!--pages/in/in.wxml-->
+<view class="h1">监控</view>
+<view>
+      <view>房门距离</view>
+      
+    </view>
+
+    <view>
+      <input type="number" value="{{moneyNum}}" placeholder="请输入房门距离" placeholder-class="color: #999999;" bindinput="getIntegral"></input>
+    </view>
+    <camera device-position="back" flash="off" binderror="error" style="width: 100%; height: 300px;"></camera>
+
+<view>保存</view>
+<image mode="widthFix" src="{{src}}"></image>
+<view style='height:50px;'></view>
+<view class="section">
+  <view style='width:10px;'></view>
+<button bindtap="aa" class="btn1">认识</button>   
+<view style='width:20px;'></view>
+<button bindtap="freeTell" class="btn1">不认识</button>    
+<view style='width:10px;'></view>
+<button bindtap="OneNet_Post" class="btn1">锁门</button>    
+</view>

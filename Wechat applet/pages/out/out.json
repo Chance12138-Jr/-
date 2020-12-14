@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#7FFFD4",
+  "navigationBarTitleText": "室外监控",
+  "backgroundColor": "#eeeeee",
+  "enablePullDownRefresh": true,
+  "backgroundTextStyle": "dark"
+}
